@@ -18,6 +18,6 @@ def chat(message,history):
 gr.ChatInterface(chat,
                  title="XiFeng-Assistant",
                 description="""
-InternLM is mainly developed by Shanghai AI Laboratory.  
+我是西风的个人小助手.  
                  """,
                  ).queue(1).launch()
